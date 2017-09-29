@@ -26,7 +26,7 @@ class Gui(Tk):
         labelHS = Label (self, text = "Reasonable holding station limits?")
         labelHSExp = Label(self, text = "(No more than half of menu is HS Required)")
         menuEntree = OptionMenu (self, numberEntree, "1", "2", "3", "4", "5", "6")
-        menuSides = OptionMenu (self, numberSides, "0", "1", "2")
+        menuSides = OptionMenu (self, numberSides, "0", "1", "2", "3")
         menuDrinks = OptionMenu (self, numberDrinks, "0","1", "2")
         checkLimit = Checkbutton (self, variable=limitStatus)
         labelEntreeMenu = Label(self, text = "")
